@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe - UNEFA</title>
+    <link rel="stylesheet" href="fuente.css">
+</head>
+<body>
+
+    
+    <section class="pagina portada">
+        <div class="encabezado-institucional">
+            <p>REPÚBLICA BOLIVARIANA DE VENEZUELA</p>
+            <p>MINISTERIO DEL PODER POPULAR PARA LA DEFENSA</p>
+            <p>UNIVERSIDAD NACIONAL EXPERIMENTAL POLITÉCNICA DE LA</p>
+            <p>FUERZA ARMADA NACIONAL</p>
+            <p>UNEFA-NÚCLEO GUÁRICO</p>
+            <p>INGENIERÍA DE SISTEMAS</p>
+        </div>
+
+        <div class="titulo-portada">
+            <h1>Comunicaciones de Microondas </h1>
+        </div>
+
+        <div class="pie-portada">
+            <div class="bloque-persona">
+                <p><strong>Profesor:</strong></p>
+                <p>Raul Blanco</p>
+            </div>
+            <div class="bloque-persona">
+                <p><strong>Bachiller:</strong></p>
+                <p>Enyer Rubin</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="pagina contenido">
+        <h2>¿Comunicacion de Microondas?</h2>  
+          <p> Las microondas son ondas electromagnéticas de radiofrecuencia con longitudes de onda cortas que operan en un rango de 
+              frecuencias comprendido típicamente entre los 300 MHz y los 300 GHz, situándose en el espectro electromagnético entre las
+              ondas de radio de ultra alta frecuencia (UHF) y la radiación infrarroja. Este segmento se subdivide en bandas operativas 
+              estandarizadas (desde la banda L hasta las ondas milimétricas) y se caracteriza por ofrecer altas tasas de transferencia
+              de datos y directividad, propiedades fundamentales que sustentan los enlaces de comunicación de alta capacidad.</p>
+        
+        <h2>¿Mecanismos de propagación y condición de Línea de Vista (LOS)?</h2>
+          <p>Las microondas se propagan principalmente mediante ondas espaciales en régimen cuasi-óptico, lo que requiere una condición
+              estricta de Línea de Vista (LOS) directa y sin obstrucciones entre las antenas. Debido a su alta frecuencia y longitud de
+              onda corta, estas ondas no pueden rodear obstáculos geográficos ni la curvatura terrestre mediante difracción significativa,
+              por lo que cualquier interrupción en la trayectoria recta degrada el enlace o bloquea por completo la transmisión.</p>
+        
+        <h2>¿Zona de Fresnel?</h2>
+          <p>La Zona de Fresnel es un volumen físico elipsoidal que rodea la trayectoria de Línea de Vista (LOS) entre las antenas
+             transmisora y receptora. Aunque exista visibilidad directa, la presencia de obstáculos u objetos dentro de este volumen
+             elipsoidal provoca reflexiones con desfase que generan interferencia destructiva, atenuando significativamente la potencia
+             de la señal recibida si no se asegura un despeje mínimo del trayecto.</p>
+
+        
+        <div class="numero-pagina"></div>
+    </section>
+
+    
+    <section class="pagina contenido">
+        <h2> ¿Arquitectura y configuración de sistemas de radioenlace?</h2>
+        <p>La arquitectura de un sistema de radioenlace comprende estaciones terminales y repetidoras intermedias organizadas en
+            topologías punto a punto para superar obstáculos geográficos. Su configuración técnica integra unidades exteriores (ODU)
+            con antenas directivas, unidades interiores (IDU) para el procesamiento de banda base y esquemas de redundancia de protección
+            (como configuraciones 1+1) orientados a asegurar la alta disponibilidad y la continuidad del flujo de datos ante posibles fallas 
+            operativas. </p>
+        
+        <h2> Factores de atenuación, interferencia y desvanecimiento por lluvia (rain fade)</h2>
+        <p><strong> Atenuación: </strong> La atenuación representa la pérdida gradual de potencia que experimenta la señal electromagnética a medida que se
+            propaga debido a la divergencia geométrica del espacio libre y la absorción molecular de los gases atmosféricos. Ejemplo: En un radioenlace
+            de 15 GHz, duplicar la distancia entre las estaciones terminales de 20 km a 40 km incrementa drásticamente las pérdidas de propagación,
+            exigiendo antenas de mayor diámetro para compensar la caída de nivel en recepción.</p>
+        
+        <p><strong>​Interferencia:</strong> La interferencia surge cuando ondas electromagnéticas ajenas, provenientes de canales adyacentes o reflexiones multitrayecto del 
+            terreno, se superponen en la frecuencia de operación y degradan la relación señal-ruido. Ejemplo: En una torre de telecomunicaciones densamente
+            poblada de antenas, una alineación incorrecta o la falta de polarización cruzada entre equipos cercanos genera interferencia co-canal, corrompiendo
+            los datos modulados.</p>
+        
+       <div class="numero-pagina"></div>
+    </section> 
+    
+    <section class="pagina contenido">
+        <p><strong>desvanecimiento :</strong> El desvanecimiento por lluvia (rain fade) es un fenómeno crítico en frecuencias elevadas donde el tamaño de las gotas de agua es comparable
+            a la longitud de onda, provocando la absorción y dispersión severa de la energía. Ejemplo: Durante una precipitación pluvial intensa superior a 50 mm/h, un 
+            enlace troncal operando en bandas superiores a 10 GHz puede sufrir una atenuación abrupta de varios decibelios por kilómetro, colapsando el margen de desvanecimiento
+            del sistema si no se implementan técnicas de modulación adaptativa.</p>
+        
+        <h2>¿Orígenes de los radioenlaces? </h2>
+        <p>Los orígenes de los radioenlaces se remontan a finales del siglo XIX con las demostraciones experimentales de Heinrich Hertz sobre la existencia de las ondas electromagnéticas y
+            las primeras transmisiones telegráficas inalámbricas de Guglielmo Marconi. No obstante, el salto tecnológico definitivo hacia las microondas modernas se produjo durante la Segunda
+            Guerra Mundial con el desarrollo intensivo de los sistemas de radar, lo que impulsó el uso de frecuencias superiores y permitió que, a finales de la década de 1940 y durante los años
+            50, se implementaran las primeras redes comerciales de radioenlaces terrestres punto a punto para la transmisión troncal de voz y televisión. </p>
+        
+       <p> <strong>1G Telefonía analógica : </strong>La primera generación (1G), desplegada en la década de 1980 mediante sistemas como AMPS, se basó exclusivamente en la transmisión analógica de
+           señales de voz. Operaba en frecuencias de radio de baja capacidad espectral, carecía de mecanismos de cifrado y presentaba vulnerabilidades críticas de seguridad que facilitaban la escucha 
+           de llamadas y la clonación de terminales. </p> 
+        
+        <p> <strong>2G Transición digital y GSM :</strong> La segunda generación (2G) marcó el cambio definitivo hacia la digitalización de las comunicaciones móviles a través del estándar global GSM. 
+            Introdujo la conmutación de circuitos digitales, el cifrado de datos en la interfaz radioeléctrica para garantizar la privacidad y el servicio de mensajes cortos (SMS), optimizando sustancialmente
+            la capacidad de usuarios por canal.</p>
+       <div class="numero-pagina"></div>
+    </section>  
+    
+       <section class="pagina contenido">
+           
+    <p> <strong> ​3G Datos móviles y UMTS:</strong>La tercera generación (3G), impulsada por el estándar UMTS y la tecnología HSPA, transformó las redes celulares al integrar la conmutación de paquetes para
+        la transmisión eficiente de datos. Este salto tecnológico habilitó el acceso a internet móvil de banda ancha, la navegación web desde dispositivos portátiles y los servicios multimedia en streaming 
+        inicial. </p>
+
+      <p> <strong>4G Tecnología LTE :</strong>La cuarta generación (4G), fundamentada en la tecnología Long Term Evolution (LTE) y el uso de esquemas de múltiple acceso como OFDM, estableció una arquitectura
+          de red basada enteramente en el protocolo IP. Esto permitió alcanzar altas tasas de transferencia de bits y una reducción significativa de la latencia, propiciando la masificación de los teléfonos
+          inteligentes y el video de alta definición. </p>
+           
+           <p> <strong> ​5G Ondas milimétricas (mmWave):</strong>La quinta generación (5G) aprovecha el uso de bandas de ondas milimétricas (mmWave) y técnicas avanzadas como Massive MIMO para operar con anchos
+               de banda masivos y frecuencias ultra altas. Su infraestructura reduce la latencia a niveles mínimos de milisegundos y potencia el ecosistema del Internet de las Cosas (IoT) y la automatización 
+               industrial crítica.</p>  
+           
+           <p> <strong>6G: Bandas de Terahercios (THz) </strong>La sexta generación (6G) proyecta utilizar el espectro de bandas de Terahercios (THz) para alcanzar velocidades de transmisión de datos del orden de
+               los terabits por segundo y una latencia submilisegunda. Esta tecnología integrará de forma nativa la inteligencia artificial para la gestión autónoma del espectro y habilitará aplicaciones avanzadas
+               como la computación espacial, la realidad extendida inmersiva y las comunicaciones holográficas. </p>
+           
+           <h2>Aplicaciones y Desafíos</h2> 
+           <p> <strong>Redes troncales (backhaul): </strong> Las redes troncales o de backhaul utilizan radioenlaces de microondas de alta capacidad para interconectar estaciones base celulares con el núcleo de la red
+               (core) en zonas geográficas complejas. Ejemplo: Una empresa de telecomunicaciones implementa enlaces de microondas punto a punto a través de zonas montañosas para interconectar torres de telefonía celular 
+               donde el tendido físico de cableado resulta inviable.</p>
+    <div class="numero-pagina"></div>
+</section>   
+<section class="pagina contenido">
+     <p> <strong>Microondas vs. Fibra Óptica:</strong>La fibra óptica ofrece un ancho de banda masivo y total inmunidad a interferencias electromagnéticas mediante medios guiados, mientras que los enlaces de microondas 
+        destacan por su rapidez de despliegue y menor costo de infraestructura inicial en terrenos difíciles. Ejemplo: Frente a un corte físico accidental de un cable de fibra óptica subterráneo por obras civiles, un 
+        operador de red puede respaldar temporalmente el tráfico de datos crítico utilizando un radioenlace de microondas de contingencia. </p>
+    
+    <p> <strong> Disponibilidad y regulación del espectro:</strong>La disponibilidad de un enlace de microondas requiere mantener índices de operatividad anual superiores al 99.99%, condicionados por normativas técnicas 
+        y la asignación legal de frecuencias del espectro radioeléctrico por parte de los entes reguladores para evitar interferencias. Ejemplo: Un operador de telecomunicaciones debe tramitar la concesión y el pago por 
+        derechos de uso de frecuencias específicas (como las bandas de 6 GHz u 11 GHz) ante el organismo estatal competente para operar legalmente su radioenlace sin colisionar con transmisiones de terceros. </p>
+
+
+    <div class="numero-pagina"></div>
+</section>      
+            
+                
+
+    </section>
+
+</body>
+</html>
